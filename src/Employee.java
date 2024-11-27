@@ -40,7 +40,6 @@ public class Employee {
         this.department = department;
     }
 
-
     public void setSalary(double salary) {
         if (salary < 0) {
             throw new IllegalArgumentException("Зарплата не может быть отрицательной");

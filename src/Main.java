@@ -49,7 +49,6 @@ public class Main {
         }
         return minSalaryEmployee;
     }
-
     private static Employee getEmployeeWithMaxSalary() {
         if (employeeCount == 0) return null;
         Employee maxSalaryEmployee = employees[0];
@@ -61,7 +60,6 @@ public class Main {
         }
         return maxSalaryEmployee;
     }
-
     private static double getAverageSalary() {
         return getTotalSalary() / employeeCount;
     }
